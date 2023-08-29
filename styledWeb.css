@@ -1,0 +1,129 @@
+/* Style the website you made last week using CSS with the following requirements:
+Use only external CSS file (no internal or inline styling)
+Every element must be styled.
+Create style rules using class, id, and element selectors. */
+body {
+    background-color: darksalmon;
+}
+/* create background color for the entire page */
+
+.navigation {
+    display: block;
+    padding: 0 65px 0 0;
+    text-decoration: dashed;
+    font-size: x-large;
+    color:brown;
+    text-align: center;
+}
+/* styling navigation */
+
+#first-text {
+    text-align: center; 
+    border-radius: 15px;
+    border-color: darkolivegreen;
+    border-width: 5px;
+    font-size: larger
+    
+}
+
+.center {
+    float: right;
+    height: 200px;
+}
+
+.first-paragraph {
+    text-decoration: solid;
+    font-size:large;
+    color: darkslateblue;
+}
+
+#info-1 {
+    text-decoration: none;
+    font-size: larger;
+    color: darkslateblue;
+    text-align: center;
+}
+
+/* because I want the font color and size to stay the same between elements, 
+I copied the four blocks of code above multiple times */
+
+.center-2 {
+    float: right;
+    height: 200px;
+}
+
+.paragraph-2 {
+    text-decoration: solid;
+    font-size: large;
+    color: darkslateblue;
+}
+
+.center-3 {
+    float: right;
+    height: 200px;
+}
+
+.paragraph-3 {
+    text-decoration: solid;
+    font-size: large;
+    color: darkslateblue;
+}
+
+.price {
+    text-decoration: none;
+    font-size: xx-large;
+    color: papayawhip;
+    text-align: center;
+    border-radius: 300px;
+}
+
+.center-4 {
+    float: right;
+    height: 200px;
+}
+
+/* decorating the table now */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+/* I want every even line to be colored rosybrown */
+tr:nth-child(even) {
+    background-color: rosybrown;
+}
+
+/* I also want there to be a hover color */
+tr:hover {
+    background-color: thistle;
+}
+
+/* decorating the form now */
+form {
+    border-collapse: collapse;
+    width: 100%
+}
+
+#form-h2 {
+    text-align: justify;
+    font-size: larger;
+    color: whitesmoke;
+    text-decoration: solid;
+}
+
+input {
+    background-color: plum;
+    align-items: center;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+
+/* I used an external website to look at all the colors I could use for CSS so that 
+I could create a website more aesthetically pleasing */
